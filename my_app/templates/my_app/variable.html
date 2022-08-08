@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>vareiable</h1>
+    <h2>Name is {{name | length}}  <br> address {{ address | upper }} <br></h2>
+    <h3>age is {{age}} <br> talents are {{talents}} </h3>
+    <ul>
+    {% for i in talents  %}
+    
+    <li><h2> {{i}} </h2></li>
+    
+    {% endfor %}
+
+    {% if name == 'Rosane park' %}
+        <h3>name is available</h3>
+    {% endif %}
+    </ul>
+
+    
+
+</body>
+</html>

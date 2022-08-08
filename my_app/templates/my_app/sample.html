@@ -1,0 +1,12 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+        <h1>Hello world
+        </h1>
+        <img src= "{% static 'my_app/dj.png' %}" alt="djLogo" >
+        <h2><a href="{% url 'my_app:links' %}"> <button center > Links </button> </a></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex pariatur delectus fuga repellendus dolorem deserunt accusantium earum, ratione quos laudantium aliquid possimus mollitia inventore voluptatum a explicabo fugit officia. <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi aspernatur possimus, aut quae optio exercitationem nihil magni officiis nisi ducimus inventore nemo quos repellendus dolore tempora facilis vitae doloribus iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iste maiores tenetur laudantium assumenda fuga obcaecati! Eaque exercitationem doloribus cum nobis in consectetur accusamus eveniet quibusdam officiis magnam. Et, corrupti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic officiis, vero eius provident et dicta ratione consequatur autem sint est distinctio cum nam veritatis, eaque odio mollitia. Laboriosam, at modi? <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed corporis, error adipisci tenetur veritatis id ratione facere officia sapiente iusto accusamus minima quidem quam est at! Placeat reiciendis praesentium id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, labore eos, voluptatem officia minus dolor corporis asperiores maxime quis vitae distinctio? Quae rerum, nobis temporibus nulla fugit sequi sunt quis?</p>
+{% endblock content %}
